@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="My ETFNow Tracker", layout="wide")
 
 # 타이틀 및 설명
-st.markdown("<h2 style='color: #1E3A8A;'>📊 ETFNow 스타일 실시간 ETF 추적기</h2>", unsafe_sllow_html=True)
+st.markdown("<h2 style='color: #1E3A8A;'>📊 ETFNow 스타일 실시간 ETF 추적기</h2>", unsafe_allow_html=True)
 st.write("프로그래밍 없이 완성한 나만의 국내외 ETF 실시간 추적 대시보드입니다.")
 st.markdown("---")
 
